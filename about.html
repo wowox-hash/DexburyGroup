@@ -14,10 +14,12 @@
 <meta property="og:url" content="https://www.dexbury.com/about">
 <meta property="og:image" content="https://www.dexbury.com/assets/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#030a1c">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="preload" href="/assets/fonts/sen-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/fonts.css">
 <link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -26,69 +28,75 @@
     <a class="logo" href="/" aria-label="Dexbury Group home"><img src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187"></a>
     <nav class="nav" aria-label="Main"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search">Executive Search</a><a href="/ventures">Ventures</a><a href="/about" aria-current="page">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
     <details class="menu">
-      <summary aria-label="Open menu">Menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></summary>
-      <nav class="menu-panel" aria-label="Mobile"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search">Executive Search</a><a href="/ventures">Ventures</a><a href="/about">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
+      <summary aria-label="Open menu">Menu <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></summary>
+      <nav class="menu-panel" aria-label="Mobile"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search">Executive Search</a><a href="/ventures">Ventures</a><a href="/about" aria-current="page">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
     </details>
   </div>
 </header>
 <main id="main">
 <section class="hero">
-  <div class="wrap intro">
-    <p class="kicker">About Dexbury Group</p>
-    <h1>We inspire <span class="accent">trust.</span></h1>
-    <hr class="rule">
-    <p class="lead">Dexbury Group offers tailor-made marketing, commercial and leadership services: a personal, human approach and a premium experience, combining in-depth strategic thinking with pragmatic execution.</p>
+  <div class="wrap hero-grid">
+    <div class="hero-text" data-rv>
+      <p class="kicker">About Dexbury Group</p>
+      <h1>We inspire <span class="accent">trust.</span></h1>
+      <hr class="rule">
+      <p class="lead">Tailor-made marketing, commercial and leadership services: a personal, human approach and a premium experience, combining in-depth strategic thinking with pragmatic execution.</p>
+      <div class="btns"><a class="btn" href="/contact">Start a conversation <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    </div>
+    <div class="hero-media"><img src="/assets/img/team.webp" alt="Three professionals discussing around a laptop" width="1024" height="768" fetchpriority="high"></div>
   </div>
 </section>
-<section class="light">
+<section class="light sec">
   <div class="wrap split">
     <div>
-      <p class="kicker">Why we exist</p>
-      <h2>Senior expertise, without the overhead.</h2>
+      <h2>Senior expertise, <span class="accent">without the overhead.</span></h2>
+      <p class="lead">The X in our name stands for thinking out of the box, and for the difference we bring to every project.</p>
     </div>
-    <div><ul class="ticks"><li><strong>Senior people on the work</strong><span>The people you meet are the people who do the work.</span></li><li><strong>Personal attention</strong><span>A small number of clients at a time, each with a direct line to the founder.</span></li><li><strong>A network on demand</strong><span>Specialists assembled for each project, only where they add value.</span></li><li><strong>The X stands for the difference</strong><span>Thinking out of the box, and the difference we bring to every project.</span></li></ul></div>
+    <ul class="ilist" data-rv><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="3"/><path d="M5 20v-1a7 7 0 0 1 14 0v1"/><path d="M16 4.5l2-1.5M8 4.5L6 3"/></svg></span><div><strong>Senior people on the work</strong><span>The people you meet are the people who do the work.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20s-8-4.6-8-10.3A4.7 4.7 0 0 1 12 7a4.7 4.7 0 0 1 8 2.7C20 15.4 12 20 12 20z"/></svg></span><div><strong>Personal attention</strong><span>A small number of clients at a time, each with a direct line to the founder.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="13" r="2"/><path d="M12 7v4M10.4 14.2l-4 3.6M13.6 14.2l4 3.6"/></svg></span><div><strong>A network on demand</strong><span>Specialists assembled for each project, only where they add value.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><div><strong>Straight talk</strong><span>We say when we are not the right fit, and what we would do instead.</span></div></li></ul>
   </div>
 </section>
-<section class="light alt">
+<section class="paper sec">
   <div class="wrap founder">
-    <div class="founder-photo"><img src="/assets/img/founder.webp" alt="Frédéric Decroix, founder of Dexbury Group" width="800" height="800" loading="lazy"></div>
-    <div>
-      <p class="kicker">Founder</p>
-      <h2>Frédéric Decroix</h2>
+    <div class="frame"><img src="/assets/img/founder.webp" alt="Frédéric Decroix, founder of Dexbury Group" width="800" height="800" loading="lazy"></div>
+    <div data-rv>
+      <h2>Frédéric Decroix, <span class="accent">founder.</span></h2>
       <p class="lead">Frédéric is a senior marketing and commercial leader. He has led global marketing, brand management and partnerships for international lubricant brands sold in more than 100 markets, and now leads trade channel management with international buying groups and e-commerce development in the automotive aftermarket.</p>
-      <p class="lead">Earlier in his career, in the tyre and automotive services sector, he managed portfolios of product and service brands, including a B2C service network.</p>
-      <p class="lead" style="margin-bottom:0">His expertise spans global marketing strategy, brand building, partnerships and sponsorship, motorsport marketing, B2B distribution and international team leadership.</p>
+      <p>Earlier in his career, in the tyre and automotive services sector, he managed portfolios of product and service brands, including a B2C service network.</p>
+      <p>His expertise spans global marketing strategy, brand building, partnerships and sponsorship, motorsport marketing, B2B distribution and international team leadership.</p>
     </div>
   </div>
 </section>
-<section class="light">
+<section class="light sec">
   <div class="wrap">
-    <p class="kicker">Our values</p>
-    <h2>What we stand for.</h2>
-    <div class="values" style="margin-top:40px">
-      <div class="value"><strong>Premium</strong><span>A considered, high-quality experience at every step.</span></div>
-      <div class="value"><strong>Innovation</strong><span>New ideas, tested quickly and kept only when they work.</span></div>
-      <div class="value"><strong>Freshness</strong><span>A clear, honest outside view of your business.</span></div>
-      <div class="value"><strong>Human</strong><span>Relationships first, built on trust and straight talk.</span></div>
+    <h2>What we <span class="accent">stand for.</span></h2>
+    <div class="values" data-rv>
+      <div class="value"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 4h12l3 5-9 11L3 9z"/><path d="M3 9h18M9.5 4L8 9l4 11 4-11-1.5-5"/></svg><strong>Premium</strong><span>A considered, high-quality experience at every step.</span></div>
+      <div class="value"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6.3 6.3l2.8 2.8M14.9 14.9l2.8 2.8M6.3 17.7l2.8-2.8M14.9 9.1l2.8-2.8"/></svg><strong>Innovation</strong><span>New ideas, tested quickly and kept only when they work.</span></div>
+      <div class="value"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19c0-9 6-14 15-14 0 9-5 15-14 15"/><path d="M5 19l8-8"/></svg><strong>Freshness</strong><span>A clear, honest outside view of your business.</span></div>
+      <div class="value"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 20s-8-4.6-8-10.3A4.7 4.7 0 0 1 12 7a4.7 4.7 0 0 1 8 2.7C20 15.4 12 20 12 20z"/></svg><strong>Human</strong><span>Relationships first, built on trust and straight talk.</span></div>
     </div>
   </div>
 </section>
-<section class="cta-band">
-  <img class="bg" src="/assets/img/hands.webp" alt="" loading="lazy" width="1600" height="1063">
+<section class="dark sec">
   <div class="wrap">
-    <h2>We are where we can <span class="accent">make a difference.</span></h2>
-    <p class="lead">Tell us about your project. We reply within 2 working days.</p>
-    <a class="btn" href="/contact">Start a conversation</a>
+    <h2>Four ways to <span class="accent">work with us.</span></h2>
+    <div class="tiles" data-rv><a class="tile" href="/consulting"><img src="/assets/img/consulting-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Consulting</h3><p>Strategy and execution for marketing, brand, commercial and e-commerce.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a><a class="tile" href="/coaching-training"><img src="/assets/img/coaching-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Coaching &amp; Training</h3><p>Tailored coaching and workshops that make leaders and teams better.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a><a class="tile" href="/executive-search"><img src="/assets/img/search-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Executive Search</h3><p>The senior marketing, commercial and e-commerce leaders your plan depends on.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a><a class="tile" href="/ventures"><img src="/assets/img/ventures-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Ventures</h3><p>Brands and ventures we build, co-found or back.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a></div>
+  </div>
+</section>
+<section class="close">
+  <div class="wrap close-grid">
+    <div data-rv>
+      <h2>We are where we can <span class="accent">make a difference.</span></h2>
+      <p class="lead">Tell us about your project. We reply within 2 working days.</p>
+      <a class="btn" href="/contact">Start a conversation <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="frame"><img src="/assets/img/global.webp" alt="" width="1024" height="768" loading="lazy"></div>
   </div>
 </section>
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <img src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187">
-        <p>Only where we can make a difference.</p>
-      </div>
+    <div class="foot-top">
       <div>
         <h4>Services</h4>
         <ul>
@@ -103,19 +111,21 @@
         <ul>
           <li><a href="/about">About</a></li>
           <li><a href="/contact">Contact</a></li>
+          <li><a href="/legal">Legal notice &amp; privacy</a></li>
         </ul>
       </div>
       <div>
-        <h4>Contact</h4>
+        <h4>Talk to us</h4>
         <ul>
           <li><a href="mailto:info@dexbury.com">info@dexbury.com</a></li>
-          <li>Waterloo, Belgium</li>
+          <li>Waterloo, Belgium. Working internationally.</li>
         </ul>
       </div>
     </div>
+    <img class="foot-name" src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187" loading="lazy" style="max-width:760px">
     <div class="foot-base">
+      <span>Only where we can make a difference.</span>
       <span>© 2026 Dexbury Group SRL</span>
-      <span><a href="/legal">Legal notice &amp; privacy</a></span>
     </div>
   </div>
 </footer>

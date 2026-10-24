@@ -14,10 +14,12 @@
 <meta property="og:url" content="https://www.dexbury.com/executive-search">
 <meta property="og:image" content="https://www.dexbury.com/assets/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#030a1c">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="preload" href="/assets/fonts/sen-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/fonts.css">
 <link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -26,78 +28,81 @@
     <a class="logo" href="/" aria-label="Dexbury Group home"><img src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187"></a>
     <nav class="nav" aria-label="Main"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search" aria-current="page">Executive Search</a><a href="/ventures">Ventures</a><a href="/about">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
     <details class="menu">
-      <summary aria-label="Open menu">Menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></summary>
-      <nav class="menu-panel" aria-label="Mobile"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search">Executive Search</a><a href="/ventures">Ventures</a><a href="/about">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
+      <summary aria-label="Open menu">Menu <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></summary>
+      <nav class="menu-panel" aria-label="Mobile"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search" aria-current="page">Executive Search</a><a href="/ventures">Ventures</a><a href="/about">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
     </details>
   </div>
 </header>
 <main id="main">
 <section class="hero">
   <div class="wrap hero-grid">
-    <div>
+    <div class="hero-text" data-rv>
       <p class="kicker">Executive Search</p>
       <h1>We find the people <span class="accent">who make the difference.</span></h1>
       <hr class="rule">
       <p class="lead">Searches for the senior marketing, commercial and e-commerce leaders your plan depends on, led by someone who has done those jobs.</p>
-      <div class="btns"><a class="btn" href="/contact">Start a conversation</a></div>
+      <div class="btns"><a class="btn" href="/contact">Start a conversation <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
     </div>
-    <div class="hero-media"><img src="/assets/img/search.webp" alt="" width="1600" height="1063" fetchpriority="high"></div>
+    <div class="hero-media"><img src="/assets/img/search-hero.webp" alt="Portrait of a senior executive woman in blue light" width="1024" height="768" fetchpriority="high"></div>
   </div>
 </section>
-<section class="light">
+<section class="light sec">
   <div class="wrap">
-    <p class="kicker">Who it is for</p>
     <h2>When the hire shapes the strategy.</h2>
-    <div class="situations"><div class="situation"><strong>A critical senior role</strong><p>A CMO, commercial director or e-commerce lead: the wrong hire costs a year.</p></div><div class="situation"><strong>A hard-to-reach profile</strong><p>The right people are not looking. They need to be found and convinced.</p></div><div class="situation"><strong>A discreet move</strong><p>A replacement or a new role that cannot be advertised.</p></div></div>
+    <div class="situations" data-rv>
+      <div class="situation"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg><h3>A critical senior role</h3><p>A CMO, commercial director or e-commerce lead: the wrong hire costs a year.</p></div><div class="situation"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 4L3 6.5v13L9 17l6 2.5 6-2.5v-13L15 6.5z"/><path d="M9 4v13M15 6.5v13"/></svg><h3>A hard-to-reach profile</h3><p>The right people are not looking. They need to be found and convinced.</p></div><div class="situation"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="10" rx="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><h3>A discreet move</h3><p>A replacement or a new role that cannot be advertised.</p></div>
+    </div>
   </div>
 </section>
-<section class="light alt">
+<section class="paper sec">
   <div class="wrap split">
-    <div>
-      <p class="kicker">What we do</p>
+    <div class="sticky">
       <h2>A search led by a practitioner.</h2>
+      <p class="lead">We judge candidates the way you will: on what they will deliver in the role.</p>
+      <div class="frame tall"><img src="/assets/img/search-detail.webp" alt="A handshake between two business people" width="1024" height="768" loading="lazy"></div>
     </div>
-    <div><ul class="ticks"><li><strong>Role definition</strong><span>We challenge and sharpen the brief with you before the search starts.</span></li><li><strong>Market mapping</strong><span>Who is out there, where, and what it takes to attract them.</span></li><li><strong>Search and approach</strong><span>Direct, discreet outreach, supported by a specialist research partner.</span></li><li><strong>Assessment</strong><span>Structured interviews judged by someone who knows what good looks like in the role.</span></li><li><strong>Offer and onboarding support</strong><span>Help to close the right candidate and to make the first months work.</span></li></ul></div>
+    <ul class="ilist" data-rv><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 7l3 3"/></svg></span><div><strong>Role definition</strong><span>We challenge and sharpen the brief with you before the search starts.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 4L3 6.5v13L9 17l6 2.5 6-2.5v-13L15 6.5z"/><path d="M9 4v13M15 6.5v13"/></svg></span><div><strong>Market mapping</strong><span>Who is out there, where, and what it takes to attract them.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 3L3 10.5l7 3 3 7z"/><path d="M10 13.5L21 3"/></svg></span><div><strong>Search and approach</strong><span>Direct, discreet outreach, supported by a specialist research partner.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="4" width="14" height="17" rx="1.5"/><path d="M9 4V3h6v1"/><path d="M8.5 13l2.5 2.5 4.5-5"/></svg></span><div><strong>Assessment</strong><span>Structured interviews judged by someone who knows what good looks like in the role.</span></div></li><li><span class="ibox"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4L17 12H5"/></svg></span><div><strong>Offer and onboarding support</strong><span>Help to close the right candidate and to make the first months work.</span></div></li></ul>
   </div>
 </section>
-<section>
+<section class="navy sec">
   <div class="wrap">
-    <p class="kicker">How we engage</p>
-    <h2>Shaped around your situation.</h2>
-    <div class="formats"><div class="format"><h3>Retained search</h3><p>A dedicated search for one role, in clear phases, from brief to signed offer.</p></div><div class="format"><h3>Market mapping</h3><p>A confidential view of the talent market before you decide to hire.</p></div><div class="format"><h3>Assessment only</h3><p>An independent view on candidates you have already found.</p></div></div>
+    <h2>Three ways to engage.</h2>
+    <div class="formats" data-rv>
+      <div class="format"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg><h3>Retained search</h3><p>A dedicated search for one role, in clear phases, from brief to signed offer.</p></div><div class="format"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 4L3 6.5v13L9 17l6 2.5 6-2.5v-13L15 6.5z"/><path d="M9 4v13M15 6.5v13"/></svg><h3>Market mapping</h3><p>A confidential view of the talent market before you decide to hire.</p></div><div class="format"><svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="4" width="14" height="17" rx="1.5"/><path d="M9 4V3h6v1"/><path d="M8.5 13l2.5 2.5 4.5-5"/></svg><h3>Assessment only</h3><p>An independent view on candidates you have already found.</p></div>
+    </div>
   </div>
 </section>
-<section class="light">
+<section class="light sec">
   <div class="wrap split">
     <div>
-      <p class="kicker">Questions</p>
-      <h2>What clients ask first.</h2>
+      <h2>Questions clients ask first.</h2>
+      <p class="lead">Anything else? Ask us directly; we reply within 2 working days.</p>
     </div>
-    <div class="faq"><details><summary>Which roles do you search for?</summary><p>Senior marketing, brand, commercial, sales, business development and e-commerce roles.</p></details><details><summary>Who runs the search?</summary><p>Our founder leads every search personally, supported by a specialist research partner.</p></details><details><summary>I am a candidate. Can I get in touch?</summary><p>Yes. Send a short message through the contact page; every approach is treated in confidence.</p></details><details><summary>How do you keep searches confidential?</summary><p>Approaches are made directly and discreetly, and client names are shared only with your agreement.</p></details></div>
+    <div class="faq" data-rv>
+      <details><summary>Which roles do you search for?</summary><p>Senior marketing, brand, commercial, sales, business development and e-commerce roles.</p></details><details><summary>Who runs the search?</summary><p>Our founder leads every search personally, supported by a specialist research partner.</p></details><details><summary>I am a candidate. Can I get in touch?</summary><p>Yes. Send a short message through the contact page; every approach is treated in confidence.</p></details><details><summary>How do you keep searches confidential?</summary><p>Approaches are made directly and discreetly, and client names are shared only with your agreement.</p></details>
+    </div>
   </div>
 </section>
-<section class="navy">
+<section class="dark sec">
   <div class="wrap">
-    <p class="kicker">Also from Dexbury Group</p>
-    <div class="related"><a href="/consulting"><strong>Consulting</strong><span>Strategy and execution for marketing, commercial and e-commerce.</span></a><a href="/coaching-training"><strong>Coaching &amp; Training</strong><span>Tailored coaching and workshops for leaders and teams.</span></a><a href="/ventures"><strong>Ventures</strong><span>Brands and ventures we build, co-found or back.</span></a></div>
+    <h2>More from Dexbury Group.</h2>
+    <div class="related" data-rv><a class="tile" href="/consulting"><img src="/assets/img/consulting-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Consulting</h3><p>Strategy and execution for marketing, brand, commercial and e-commerce.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a><a class="tile" href="/coaching-training"><img src="/assets/img/coaching-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Coaching &amp; Training</h3><p>Tailored coaching and workshops that make leaders and teams better.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a><a class="tile" href="/ventures"><img src="/assets/img/ventures-hero.webp" alt="" width="1024" height="768" loading="lazy"><div class="tile-body"><h3>Ventures</h3><p>Brands and ventures we build, co-found or back.</p><span class="go">Discover <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a></div>
   </div>
 </section>
-<section class="cta-band">
-  <img class="bg" src="/assets/img/search.webp" alt="" loading="lazy" width="1600" height="1063">
-  <div class="wrap">
-    <h2>We inspire <span class="accent">trust.</span></h2>
-    <p class="lead">Brief us on the role, or introduce yourself as a candidate. We reply within 2 working days.</p>
-    <a class="btn" href="/contact">Start a conversation</a>
+<section class="close">
+  <div class="wrap close-grid">
+    <div data-rv>
+      <h2>We inspire <span class="accent">trust.</span></h2>
+      <p class="lead">Brief us on the role, or introduce yourself as a candidate. We reply within 2 working days.</p>
+      <a class="btn" href="/contact">Start a conversation <svg class="ico" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="frame"><img src="/assets/img/search-detail.webp" alt="" width="1024" height="768" loading="lazy"></div>
   </div>
 </section>
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <img src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187">
-        <p>Only where we can make a difference.</p>
-      </div>
+    <div class="foot-top">
       <div>
         <h4>Services</h4>
         <ul>
@@ -112,19 +117,21 @@
         <ul>
           <li><a href="/about">About</a></li>
           <li><a href="/contact">Contact</a></li>
+          <li><a href="/legal">Legal notice &amp; privacy</a></li>
         </ul>
       </div>
       <div>
-        <h4>Contact</h4>
+        <h4>Talk to us</h4>
         <ul>
           <li><a href="mailto:info@dexbury.com">info@dexbury.com</a></li>
-          <li>Waterloo, Belgium</li>
+          <li>Waterloo, Belgium. Working internationally.</li>
         </ul>
       </div>
     </div>
+    <img class="foot-name" src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187" loading="lazy" style="max-width:760px">
     <div class="foot-base">
+      <span>Only where we can make a difference.</span>
       <span>© 2026 Dexbury Group SRL</span>
-      <span><a href="/legal">Legal notice &amp; privacy</a></span>
     </div>
   </div>
 </footer>

@@ -14,10 +14,12 @@
 <meta property="og:url" content="https://www.dexbury.com/legal">
 <meta property="og:image" content="https://www.dexbury.com/assets/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#030a1c">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="preload" href="/assets/fonts/sen-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/fonts.css">
 <link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -26,21 +28,21 @@
     <a class="logo" href="/" aria-label="Dexbury Group home"><img src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187"></a>
     <nav class="nav" aria-label="Main"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search">Executive Search</a><a href="/ventures">Ventures</a><a href="/about">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
     <details class="menu">
-      <summary aria-label="Open menu">Menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></summary>
+      <summary aria-label="Open menu">Menu <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></summary>
       <nav class="menu-panel" aria-label="Mobile"><a href="/consulting">Consulting</a><a href="/coaching-training">Coaching &amp; Training</a><a href="/executive-search">Executive Search</a><a href="/ventures">Ventures</a><a href="/about">About</a><a class="btn" href="/contact">Start a conversation</a></nav>
     </details>
   </div>
 </header>
 <main id="main">
-<section class="hero">
-  <div class="wrap intro">
+<section class="hero" style="padding-bottom:48px">
+  <div class="wrap">
     <p class="kicker">Legal</p>
     <h1>Legal notice <span class="accent">and privacy.</span></h1>
     <hr class="rule">
   </div>
 </section>
-<section class="light">
-  <div class="wrap intro legal">
+<section class="light sec">
+  <div class="wrap legal">
     <h3>Publisher</h3>
     <dl class="dl">
       <dt>Company</dt><dd>Dexbury Group SRL</dd>
@@ -65,17 +67,15 @@
       <li><strong>Your rights:</strong> you may request access to, correction or deletion of your data, withdraw your consent, or object to processing, by writing to <a href="mailto:info@dexbury.com">info@dexbury.com</a>.</li>
       <li><strong>Complaints:</strong> you may lodge a complaint with the Belgian Data Protection Authority (<a href="https://www.dataprotectionauthority.be" rel="noopener">dataprotectionauthority.be</a>).</li>
     </ul>
+    <h3>Pictures</h3>
+    <p>Some photographs on this website were created with generative AI for illustration; they do not show real clients or staff.</p>
     <p style="margin-top:32px">Last updated: 24 October 2026.</p>
   </div>
 </section>
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <img src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187">
-        <p>Only where we can make a difference.</p>
-      </div>
+    <div class="foot-top">
       <div>
         <h4>Services</h4>
         <ul>
@@ -90,19 +90,21 @@
         <ul>
           <li><a href="/about">About</a></li>
           <li><a href="/contact">Contact</a></li>
+          <li><a href="/legal">Legal notice &amp; privacy</a></li>
         </ul>
       </div>
       <div>
-        <h4>Contact</h4>
+        <h4>Talk to us</h4>
         <ul>
           <li><a href="mailto:info@dexbury.com">info@dexbury.com</a></li>
-          <li>Waterloo, Belgium</li>
+          <li>Waterloo, Belgium. Working internationally.</li>
         </ul>
       </div>
     </div>
+    <img class="foot-name" src="/assets/dexbury-group-logo.png" alt="Dexbury Group" width="758" height="187" loading="lazy" style="max-width:760px">
     <div class="foot-base">
+      <span>Only where we can make a difference.</span>
       <span>© 2026 Dexbury Group SRL</span>
-      <span><a href="/legal">Legal notice &amp; privacy</a></span>
     </div>
   </div>
 </footer>
