@@ -287,3 +287,12 @@ h1{font-size:clamp(38px,3.9vw,60px);line-height:1.04;max-width:none}
 .hero-media{aspect-ratio:4/4.4}
 .tile::before{background:linear-gradient(180deg,rgba(3,10,28,.05) 10%,rgba(3,10,28,.55) 45%,rgba(3,10,28,.95) 100%)}
 @media (max-width:980px){.hero-grid{grid-template-columns:1fr}.hero-media{aspect-ratio:4/3}}
+
+/* Three levers */
+.tiles{grid-template-columns:repeat(3,minmax(0,1fr))}
+.tiles .tile:nth-child(n){grid-column:auto}
+.tiles .tile{min-height:520px}
+.related{grid-template-columns:repeat(2,minmax(0,1fr))}
+.steps-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.steps-3 li{background:var(--paper)}
+@media (max-width:980px){.tiles,.related,.steps-3{grid-template-columns:1fr}.tiles .tile{min-height:400px}}
