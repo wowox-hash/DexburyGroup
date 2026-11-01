@@ -1,0 +1,9 @@
+#cc-banner{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:560px;margin-left:auto;background:#1e274a;color:#fff;padding:20px 22px;box-shadow:0 12px 32px rgba(0,0,0,.35);font-family:"Lexend Deca",system-ui,sans-serif;font-size:15px;line-height:1.5}
+#cc-banner p{margin:0 0 14px}
+#cc-banner a{color:#fff;text-decoration:underline;text-decoration-color:#57e1be;text-underline-offset:4px}
+#cc-banner .cc-btns{display:flex;gap:10px;flex-wrap:wrap}
+#cc-banner button{flex:1 1 140px;min-height:48px;font-family:Sen,sans-serif;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;border:0}
+#cc-banner .cc-yes{background:#57e1be;color:#030a1c}
+#cc-banner .cc-no{background:#fff;color:#030a1c}
+#cc-banner button:hover{filter:brightness(.92)}
+#cc-banner button:focus-visible{outline:3px solid #57e1be;outline-offset:2px}
